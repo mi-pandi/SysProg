@@ -1,0 +1,17 @@
+public class Changes(a, b){
+	int a = 0;
+	int b = 0;
+	public Changes(ia, ib){
+		a=ia;
+		b=ib;
+	}
+	int getA(){
+		return a;
+	}
+	int getB(){
+		return b;
+	}
+	public int substraction(a, b){
+		return a-b;
+	}
+}
